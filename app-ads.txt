@@ -1,0 +1,2 @@
+# AdMob 이 알려주는 한 줄로 바꾼다 (AdMob › 앱 › app-ads.txt). 예:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

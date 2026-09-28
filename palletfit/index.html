@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PalletFit</title>
+<link rel="stylesheet" href="style.css" />
+<script>
+    // 브라우저 언어로 이동 (ko / ja / 그 밖에는 en)
+    var l = (navigator.language || 'en').toLowerCase().slice(0, 2)
+    location.replace((l === 'ko' || l === 'ja' ? l : 'en') + '/' + location.hash)
+</script>
+</head>
+<body>
+<main>
+<h1>PalletFit</h1>
+<ul>
+    <li><a href="ko/">한국어</a></li>
+    <li><a href="en/">English</a></li>
+    <li><a href="ja/">日本語</a></li>
+</ul>
+</main>
+</body>
+</html>
